@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 75% ;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    float: left;
+}
+.header img {
+    height: 70px;
+}
+.title {
+    margin-top: 50px;
+    text-align: left;
+}
+.title h1 {
+    font-size: 2.5em;
+    color: #000;
+    margin: 0;
+    margin-top: 100px;
+}
+.title h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 0;
+    margin-top: 10px;
+}
+.footer {
+    text-align: left;
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.logo {
+    margin-top: -410px;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.logo img {
+    height: 500px;
+    border-radius: 50%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.section img {
+    width: 50%;
+    border-radius: 10px;
+}
+.section .text {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    margin-top: -220px;
+}
+.section .text h2 {
+    font-size: 3.2em;
+    color: #000;
+    background-color: #c1ff72;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+}
+.section .text p {
+    font-size: 1.5em;
+    color: #555;
+    margin: 10px 0 0 0;
+}
+
+.contact-section {
+    display: flex;
+    margin: 20px 0;
+}
+.contact-section .contact-info {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-section .contact-info h2 {
+    font-size: 3.2em;
+    color: #000;
+    margin: 20px 0;
+    background-color: #c1ff72;
+    display: inline-block;
+    padding: 10px;
+    left: 150px;
+    position: relative;
+}
+.contact-section .contact-info p {
+    font-size: 1.5em;
+    margin: 10px 0 0 0;
+    text-decoration: underline;
+    position: relative;
+    left: 150px;
+}
+.contact-section .contact-info .icon {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.contact-section .contact-info .icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 15px;
+    left: 155px;
+}
+.contact-section img {
+    width: 550px;
+    border-radius: 10px;
+    position: relative;
+    right: 70px;
+}

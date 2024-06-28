@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    background-color: #c1ff72;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #000;
+}
+.subheader {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+.palestras {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.palestra {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.palestra h2 {
+    background-color: #c1ff72;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #000;
+}
+.palestra p {
+    text-align: justify;
+    margin: 10px 0;
+}
+.palestra .data {
+    text-decoration: underline;
+}
+.palestra .palestrante {
+    text-decoration: underline;
+}
+
+.palestra .p2{
+    margin-top: 20px;
+    position: relative;
+}
+
+.palestra .p3{
+    margin-top: 20px;
+    position: relative;
+}
